@@ -1,0 +1,15 @@
+/* src/styles/custom.css */
+@import "tailwindcss";
+
+body {
+  background: #eef5ff;
+  font-family: Arial, sans-serif;
+}
+
+.movie-card {
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-8px);
+}
